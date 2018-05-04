@@ -56,7 +56,7 @@ Marking the entity state explicitly as _Added_ commits the instance correctly to
 This explicitness is only necessary for _Attributes_. All other entities in my real project are correctly added through DbSet<T>.Add().
 
 What's wrong with my expectations?
-See sample...
+See [sample](EntityNotWrittenToDB/EntityIsNotInStateAdded/Program.cs)...
 
 ```csharp
 static void Main(string[] args)
